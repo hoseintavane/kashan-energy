@@ -1,0 +1,31 @@
+name: kashan_energy
+description: مدیریت هوشمند انرژی شهر کاشان
+publish_to: none
+version: 2.0.0+2
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  fl_chart: ^0.69.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  crypto: ^3.0.6
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  encrypt: ^5.0.3
+  flutter_secure_storage: ^9.2.2
+  path_provider: ^2.1.5
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  share_plus: ^10.1.4
+
+flutter:
+  uses-material-design: true
+  # اختیاری: فونت وزیرمتن را در assets/fonts قرار دهید و اینجا معرفی کنید،
+  # سپس در main.dart مقدار fontFamily را 'Vazirmatn' بگذارید.
